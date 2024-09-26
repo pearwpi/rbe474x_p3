@@ -93,6 +93,9 @@ def main():
                 img, original_disp = sample['left'], sample['original_distill_disp']
                 patch, mask = patch_cpu.cuda(), mask_cpu.cuda()
 
+                # how to run inference/forward?
+                #est_disp = models.distill(img)
+
                 # transform patch and maybe the mask corresponding to the transformed patch(binary iamge)
                 patch_t, mask_t
 
