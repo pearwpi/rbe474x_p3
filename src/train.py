@@ -96,6 +96,9 @@ def main():
                 # how to run inference/forward?
                 #est_disp = models.distill(img)
 
+                # set of printable colors used in the original paper are given below,
+                #Src/list/printable30values.txt
+
                 # transform patch and maybe the mask corresponding to the transformed patch(binary iamge)
                 patch_t, mask_t
 
